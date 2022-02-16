@@ -8323,6 +8323,7 @@ __metadata:
     "@tsconfig/docusaurus": ^1.0.4
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
+    acorn: ^8.7.0
     clsx: ^1.1.1
     eslint: ^8.6.0
     eslint-config-airbnb: ^19.0.4
