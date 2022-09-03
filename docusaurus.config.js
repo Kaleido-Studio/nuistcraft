@@ -15,6 +15,16 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'NUISTCRAFT', // Usually your GitHub org/user name.
   projectName: 'NUISTCRAFT', // Usually your repo name.
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'about',
+        routeBasePath: 'about',
+        path: './about',
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -56,10 +66,10 @@ const config = {
             position: 'left',
             label: '怎么玩',
           },
-          { to: '/blog', label: '关于我们', position: 'left' },
+          { to: '/about', label: '关于我们', position: 'left' },
           {
             to: '/map',
-            label: '地图',
+            label: '网页地图',
             position: 'left',
           },
           {
@@ -77,11 +87,7 @@ const config = {
           },
           {
             label: '网页地图',
-            href: 'https://map.nuistcraft.com',
-          },
-          {
-            label: '获得整合包',
-            href: 'https://map.nuistcraft.com',
+            href: 'https://ncmap.dustella.net',
           },
         ],
       },
