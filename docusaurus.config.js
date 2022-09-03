@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'NUIST Craft',
   tagline: '嘿嘿，百群，嘿嘿',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://nuistcraft.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +58,12 @@ const config = {
           },
           { to: '/blog', label: '关于我们', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/map',
+            label: '地图',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/lixiang810/nuist-craft',
             label: 'GitHub',
             position: 'right',
           },

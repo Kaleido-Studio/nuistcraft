@@ -10,13 +10,13 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '内网直通 / 外网穿透',
+    title: '专业团队',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        架设于科协服务器
+        Hosted with love and passion
         <br />
-        还可以通过外网穿透来玩
+        持续维护
       </>
     ),
   },
@@ -25,9 +25,9 @@ const FeatureList: FeatureItem[] = [
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        我们深知游戏体验的重要性
+        提供一流的原版游戏体验
         <br />
-        所以有准备整合包
+        但是 存档备份 地毯增强 等等功能也都有
       </>
     ),
   },
@@ -36,9 +36,9 @@ const FeatureList: FeatureItem[] = [
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
-        总有人想用原版完成mod的东西
+        宽松的生电规则
         <br />
-        没关系，这个服提供的权限相当宽松
+        不玩崩服随便玩
       </>
     ),
   },
@@ -63,8 +63,8 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature {...props} />
           ))}
         </div>
       </div>
