@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+title: NUISTCraft 简介
 ---
 
-# 整合包下载
+# NUIST Craft 简介
 
-进群自己看。
+NUISTCraft 在 2021 年春天成立。我们致力于提供一流的原版生电体验。
