@@ -13,4 +13,4 @@ sidebar_position: 1
 
 群文件里有最新 1.19.2 的服务器整合包，你可以在群文件里下载
 
-你可以在[这里](https://baidu.com)获得最新的整合包。我们推荐使用使用官方的整合包
+你可以在[这里](https://index.dustella.net/Games/Minecraft/Minecraft%201.19.2%20v1.7z)获得最新的整合包。我们推荐使用使用官方的整合包
