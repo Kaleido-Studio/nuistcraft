@@ -26,3 +26,10 @@ iframe {
   height: 80vh;
   width: 100%;
 }
+
+.teamlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
