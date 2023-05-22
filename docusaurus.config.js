@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NUIST Craft',
-  tagline: '嘿嘿，百群，嘿嘿',
+  tagline: '致力于提供一流的原版生存/生电体验',
   url: 'https://nuistcraft.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -15,16 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'NUISTCRAFT', // Usually your GitHub org/user name.
   projectName: 'NUISTCRAFT', // Usually your repo name.
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'about',
-        routeBasePath: 'about',
-        path: './about',
-      },
-    ],
-  ],
 
   presets: [
     [
@@ -64,16 +54,16 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '怎么玩',
+            label: '游玩指南',
           },
-          { to: '/about', label: '关于我们', position: 'left' },
+          { to: '/blog', label: '时间线', position: 'left' },
           {
             to: '/map',
             label: '网页地图',
             position: 'left',
           },
           {
-            href: 'https://github.com/lixiang810/nuist-craft',
+            href: 'https://github.com/kaleidom/nuistcraft',
             label: 'GitHub',
             position: 'right',
           },
