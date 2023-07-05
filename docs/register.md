@@ -17,21 +17,41 @@ sidebar_position: 2
 
 - 前往网页注册账户
 
+- 验证学校邮箱
+
 - 上传皮肤（可选）
 
 - 前往启动器添加配置文件，登录即可
 
-皮肤站地址是 https://skin.dustella.net
+皮肤站地址是 https://skin.dustella.net 
 
 ## 1、注册账号
 
-前往 https://skin.dustella.net ，在皮肤站里点击注册按钮
+前往 https://skin.dustella.net ，在皮肤站的中间里点击注册按钮
+
+输入基本邮箱密码和玩家名字即可，请记住你的账号和密码。
+
+**邮箱必须使用学校邮箱，例如 `2022114514@nuist.edu.cn`**
+
+:::tip
+发送验证邮件之后，如果你是本校学生，你可以去 https://mail.nuist.edu.cn 查看邮件。
+:::
 
 ![20220922181326](https://img-cdn.dustella.net/markdown/20220922181326.png)
+:::tip
+如果你是已经毕业的学长，或者其他学校的玩家，都是欢迎的。
 
-输入基本邮箱密码和玩家名字即可，请记住你的账号和密码
+如果你是其他学校的玩家，或者至少拥有`*.edu.cn`的邮箱，你可以[前往联合皮肤站注册](https://skin.mualliance.ltd/)并完成后续步骤
+
+如果没有邮件或者遇到了问题，请咨询 QQ 群中的 Dustella
+:::
 
 目前，Github 和 Microsoft 登录暂不可用
+
+
+![20230705163643](https://img-cdn.dustella.net/markdown/20230705163643.png)
+
+登陆之后，请访问你的邮箱并认证邮件中的链接
 
 ## 2、上传皮肤（可选）
 
