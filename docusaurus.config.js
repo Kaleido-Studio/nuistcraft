@@ -58,13 +58,23 @@ const config = {
           },
           { to: '/blog', label: '时间线', position: 'left' },
           {
-            to: '/map',
-            label: '网页地图',
+            href: 'https://skin.dustella.net',
+            label: '皮肤站',
             position: 'left',
           },
           {
-            href: 'https://github.com/kaleidom/nuistcraft',
-            label: 'GitHub',
+            to: '/map',
+            label: '网页地图-纯净服',
+            position: 'left',
+          },
+          {
+            href: 'http://47.100.64.192:7777/',
+            label: '网页地图-模组服',
+            position: 'left',
+          },
+          {
+            to: '/links',
+            label: '友情链接',
             position: 'right',
           },
         ],
