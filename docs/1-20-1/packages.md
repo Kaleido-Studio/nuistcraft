@@ -5,7 +5,7 @@ sidebar_position: 1
 
 :::caution
 
-无论使用什么整合包，请确保你配置好了皮肤站登陆
+无论使用什么整合包，请确保你配置好了皮肤站登陆，或通过了正版验证。
 
 :::
 
@@ -23,6 +23,6 @@ sidebar_position: 1
 
 - 整合包版本等于 1.20.1。如果高于 1.20.1，请安装模组 [MultiConnect](https://www.curseforge.com/minecraft/mc-mods/multiconnect)
 
-- [配置好了皮肤站登陆](/docs/register)
+- [配置好了皮肤站登陆](/docs/register) 或 通过了正版验证
 
 - 服务器地址： `play.nuistcraft.com`
