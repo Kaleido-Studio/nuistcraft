@@ -10,6 +10,8 @@
 
 - [特菈Dustella](https://dustella.net)
 
+- [Steve Reed](https://zhufucdev.com)
+
 # 信大主要的技术社群
 
 - [大学生科学技术协会](https://nuist-sast.github.io/)
