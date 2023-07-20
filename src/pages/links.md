@@ -18,7 +18,7 @@
 | --- | --- | ---|
 | 大学生科学技术协会 | https://nuist-sast.github.io/ |  872291094 |
  | 多火互联网工作室 | https://www.duohuo.org.cn | 
- | 南信大 ACM 交流群 | https://nuistcpc.club/ | 777658110 |
+ | 南信大 ACM 交流群 | https://nuistcpc.club/ |  |
 | Nuist CEEE |  | 757227647
 
 # 信大 QQ 社群指南（持续添加）
