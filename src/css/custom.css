@@ -3,6 +3,17 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import url("https://192960944.r.cdn36.com/chinesefonts1/packages/cubic/dist/Cubic/result.css");
+
+.cubic-font {
+  font-family: 'Cubic 11';
+  font-weight: 'Regular'
+}
+
+.navbar__title {
+  font-family: 'Cubic 11';
+  font-weight: 'Regular'
+}
 
 /* You can override the default Infima variables here. */
 :root {
