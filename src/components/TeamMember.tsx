@@ -5,12 +5,14 @@ const TeamMemberCard = ({
   memberName,
   avatar,
   role,
+  href,
 }: {
   memberName: string;
   avatar: string;
   role: string;
+  href: string;
 }) => (
-  <div className={`col col--4 ${styles.card}`}>
+  <a className={`col col--4 ${styles.card}`} href={href}>
     <div className="text--center">
       <img className={styles.avtr} alt={memberName} src={avatar} />
     </div>
@@ -18,7 +20,7 @@ const TeamMemberCard = ({
       <h2>{memberName}</h2>
       <p>{role}</p>
     </div>
-  </div>
+  </a>
 );
 
 export default TeamMemberCard;

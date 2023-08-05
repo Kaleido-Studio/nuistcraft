@@ -32,3 +32,7 @@
     font-weight: 900;
     margin-top: 0.5rem;
 }
+
+:hover a {
+    text-decoration: none;
+}
