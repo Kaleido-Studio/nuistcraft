@@ -26,3 +26,4 @@ sidebar_position: 1
 - [配置好了皮肤站登陆](/docs/register) 或 通过了正版验证
 
 - 服务器地址： `play.nuistcraft.com`
+- 联合大厅地址： `union.nuistcraft.com`  *(标签名：「NuistCraft」)*
