@@ -12,7 +12,7 @@ title: 中国 Minecraft 高校联盟
 
 :::
 
-`NuistCraft`已经接入了`MUA`的`联合认证`和`联合大厅`~
+`NUISTCraft`已经接入了`MUA`的`联合认证`和`联合大厅`~
 
 ## 联合认证
 
@@ -56,8 +56,8 @@ Union允许Minecraft服务器指定成员皮肤站黑/白名单（即指定来�
 
 #### `lobby.mualliance.ltd`
 
-`联合大厅`地址，你可以在该大厅内访问`MUA`成员的服务器，你也可以使用`/hub`来切换到`NuistCraft 纯净服`。
+`联合大厅`地址，你可以在该大厅内访问`MUA`成员的服务器，你也可以使用`/hub NUISTCraft`来切换到`NuistCraft 纯净服`。
 
-### TL;DR！
+### TL;DR!
 
 连接到上述地址，用`/hub`可以切换服务器。
