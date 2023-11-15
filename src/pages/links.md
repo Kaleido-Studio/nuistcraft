@@ -12,6 +12,8 @@
 
  [Steve Reed](https://zhufucdev.com)
 
+ [Turbo Hsu](https://owow.cc)
+
 # 信大主要的技术社群
 
 | 组织名称 | 官网 | 2023招新群 |
