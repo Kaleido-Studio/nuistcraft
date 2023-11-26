@@ -68,11 +68,6 @@ const config = {
             position: 'left',
           },
           {
-            href: 'http://47.100.64.192:7777/',
-            label: '网页地图-模组服',
-            position: 'left',
-          },
-          {
             to: '/links',
             label: '友情链接',
             position: 'right',
