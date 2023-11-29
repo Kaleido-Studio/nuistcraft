@@ -64,7 +64,12 @@ const config = {
           },
           {
             to: '/map',
-            label: '网页地图-纯净服',
+            label: '网页地图 (纯净服)',
+            position: 'left',
+          },
+          {
+            href: 'https://dynmap-nuistcraft.xwx.rs/',
+            label: '网页地图 (模组服)',
             position: 'left',
           },
           {
@@ -81,8 +86,12 @@ const config = {
             href: 'https://jq.qq.com/?_wv=1027&k=5EgjjUQV',
           },
           {
-            label: '网页地图',
+            label: '网页地图 (纯净服)',
             href: 'https://ncmap.dustella.net',
+          },
+          {
+            label: '网页地图 (模组服)',
+            href: 'https://dynmap-nuistcraft.xwx.rs/',
           },
         ],
       },

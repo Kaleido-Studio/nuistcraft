@@ -10,4 +10,4 @@ title: 网页地图与种子
 
 ## 网页地图
 
-暂时没有 :(
+[https://dynmap-nuistcraft.xwx.rs/](https://dynmap-nuistcraft.xwx.rs/)
