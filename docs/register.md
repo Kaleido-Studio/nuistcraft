@@ -36,7 +36,7 @@ sidebar_position: 2
 **邮箱必须使用学校邮箱，例如 `2022114514@nuist.edu.cn`**
 
 :::tip
-发送验证邮件之后，如果你是本校学生，你可以去 https://mail.nuist.edu.cn 查看邮件。
+发送验证邮件之后，如果你是本校学生，你可以去 [https://mail.nuist.edu.cn](https://mail.nuist.edu.cn) 查看邮件。
 :::
 
 ![20220922181326](https://img-cdn.dustella.net/markdown/20220922181326.png)
@@ -49,7 +49,6 @@ sidebar_position: 2
 :::
 
 目前，Github 和 Microsoft 登录暂不可用
-
 
 ![20230705163643](https://img-cdn.dustella.net/markdown/20230705163643.png)
 
@@ -103,7 +102,7 @@ sidebar_position: 2
 
 参考这篇文章
 
-https://www.cnblogs.com/lddragon/p/16398897.html
+[https://www.cnblogs.com/lddragon/p/16398897.html](https://www.cnblogs.com/lddragon/p/16398897.html)
 
 文章中的 API 地址是 `https://skin.nuistcraft.com/api/yggdrasil`
 
