@@ -11,6 +11,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero ', styles.heroBanner)}>
       <div className="container">
+        {/* eslint-disable-next-line jsx-a11y/media-has-caption  */}
+        <video className={styles.heroLogo} src="/img/logo.webm" autoPlay loop />
         <h1 className="hero__title cubic-font">{siteConfig.title}</h1>
         <p className="hero__subtitle cubic-font">{siteConfig.tagline}</p>
         <div className={styles.buttons}>

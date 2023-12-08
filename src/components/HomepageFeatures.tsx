@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '专业团队',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    image: '/img/Hausemaster.png',
     description: (
       <>
         Hosted with love and passion
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '提供整合包',
-    image: '/img/undraw_docusaurus_tree.svg',
+    image: '/img/Enderchest.webp',
     description: (
       <>
         提供一流的原版游戏体验
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '生电友好',
-    image: '/img/undraw_docusaurus_react.svg',
+    image: '/img/Redstone.webp',
     description: (
       <>
         宽松的生电规则

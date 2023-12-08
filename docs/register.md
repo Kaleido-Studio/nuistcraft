@@ -25,11 +25,11 @@ sidebar_position: 2
 
 - 前往启动器添加配置文件，登录即可
 
-皮肤站地址是 https://skin.dustella.net
+皮肤站地址是 https://skin.nuistcraft.com
 
 ## 1、注册账号
 
-前往 https://skin.dustella.net ，在皮肤站的中间里点击注册按钮
+前往 https://skin.nuistcraft.com ，在皮肤站的中间里点击注册按钮
 
 输入基本邮箱密码和玩家名字即可，请记住你的账号和密码。
 
@@ -91,7 +91,7 @@ sidebar_position: 2
 
 #### HMCL
 
-登录 https://skin.dustella.net ，找到【仪表盘】、【快速配置启动器】
+登录 https://skin.nuistcraft.com ，找到【仪表盘】、【快速配置启动器】
 
 ![20220922182900](https://img-cdn.dustella.net/markdown/20220922182900.png)
 
@@ -105,7 +105,7 @@ sidebar_position: 2
 
 https://www.cnblogs.com/lddragon/p/16398897.html
 
-文章中的 API 地址是 `https://skin.dustella.net/api/yggdrasil`
+文章中的 API 地址是 `https://skin.nuistcraft.com/api/yggdrasil`
 
 #### 官方启动器
 

@@ -47,7 +47,7 @@ const config = {
         title: 'NUIST Craft',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/bucket.png',
         },
         items: [
           {
@@ -58,12 +58,12 @@ const config = {
           },
           { to: '/blog', label: '时间线', position: 'left' },
           {
-            href: 'https://skin.dustella.net',
+            href: 'https://skin.nuistcraft.com',
             label: '皮肤站',
             position: 'left',
           },
           {
-            to: '/map',
+            to: 'https://map.nuistcraft.com/',
             label: '网页地图 (纯净服)',
             position: 'left',
           },
@@ -73,7 +73,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/links',
+            to: 'https://nuister.onrender.com',
             label: '友情链接',
             position: 'right',
           },
@@ -87,13 +87,14 @@ const config = {
           },
           {
             label: '网页地图 (纯净服)',
-            href: 'https://ncmap.dustella.net',
+            href: 'https://map.nuistcraft.com/',
           },
           {
             label: '网页地图 (模组服)',
             href: 'https://dynmap-nuistcraft.xwx.rs/',
           },
         ],
+        copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备20013766号-3</a>`,
       },
       prism: {
         theme: lightCodeTheme,
