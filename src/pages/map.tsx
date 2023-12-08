@@ -4,7 +4,7 @@ import './index.module.css';
 
 const Map = () => (
   <Layout>
-    <iframe height="100%" title="map" src="https://cdn.ncmap.dustella.net" />
+    <iframe height="100%" title="map" src="https://map.nuistcraft.com" />
   </Layout>
 );
 
