@@ -58,7 +58,7 @@ const config = {
           },
           { to: '/blog', label: '时间线', position: 'left' },
           {
-            href: 'https://skin.dustella.net',
+            href: 'https://skin.nuistcraft.com/',
             label: '皮肤站',
             position: 'left',
           },
