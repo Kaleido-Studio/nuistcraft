@@ -2,7 +2,6 @@
 title: 中国 Minecraft 高校联盟
 ---
 
-# 中国 Minecraft 高校联盟
 
 :::tip
 
