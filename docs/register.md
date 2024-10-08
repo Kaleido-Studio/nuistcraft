@@ -67,7 +67,7 @@ MC 皮肤站作为一种正版验证的代替方案，这样玩家不需要付�
 
 在左下角有一种 NUISTCraft 的登录方式
 
-![20220922182441](https://img-cdn.dustella.net/markdown/20220922182441.png)
+![hmcl_configuration](/img/hmcl_configuration.png)
 
 在接下来的弹框中使用刚刚注册的账号密码即可
 
