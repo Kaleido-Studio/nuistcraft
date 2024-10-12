@@ -20,6 +20,12 @@ importers:
       '@docusaurus/preset-classic':
         specifier: 3.5.2
         version: 3.5.2(@algolia/client-search@5.8.1)(@mdx-js/react@3.0.1(@types/react@18.3.11)(react@18.3.1))(@types/react@18.3.11)(esbuild@0.23.1)(eslint@9.12.0(jiti@2.3.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2)(typescript@5.5.4)
+      '@docusaurus/theme-classic':
+        specifier: ^3.5.2
+        version: 3.5.2(@types/react@18.3.11)(esbuild@0.23.1)(eslint@9.12.0(jiti@2.3.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
+      '@docusaurus/tsconfig':
+        specifier: ^3.5.2
+        version: 3.5.2
       '@docusaurus/types':
         specifier: ^3.5.2
         version: 3.5.2(esbuild@0.23.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -960,6 +966,9 @@ packages:
   '@docusaurus/theme-translations@3.5.2':
     resolution: {integrity: sha512-GPZLcu4aT1EmqSTmbdpVrDENGR2yObFEX8ssEFYTCiAIVc0EihNSdOIBTazUvgNqwvnoU1A8vIs1xyzc3LITTw==}
     engines: {node: '>=18.0'}
+
+  '@docusaurus/tsconfig@3.5.2':
+    resolution: {integrity: sha512-rQ7toURCFnWAIn8ubcquDs0ewhPwviMzxh6WpRjBW7sJVCXb6yzwUaY3HMNa0VXCFw+qkIbFywrMTf+Pb4uHWQ==}
 
   '@docusaurus/types@3.5.2':
     resolution: {integrity: sha512-N6GntLXoLVUwkZw7zCxwy9QiuEXIcTVzA9AkmNw16oc0AP3SXLrMmDMMBIfgqwuKWa6Ox6epHol9kMtJqekACw==}
@@ -7154,6 +7163,8 @@ snapshots:
     dependencies:
       fs-extra: 11.2.0
       tslib: 2.7.0
+
+  '@docusaurus/tsconfig@3.5.2': {}
 
   '@docusaurus/types@3.5.2(esbuild@0.23.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
