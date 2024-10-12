@@ -1,12 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require("prism-react-renderer")
+
+const lightCodeTheme = themes.github
+const darkCodeTheme = themes.dracula
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
-  title: 'NUIST Craft',
+  title: 'NUISTCraft',
   tagline: '致力于提供一流的原版生存/生电体验',
   url: 'https://nuistcraft.com',
   baseUrl: '/',
