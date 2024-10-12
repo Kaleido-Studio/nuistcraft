@@ -1,13 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const { themes } = require("prism-react-renderer")
+import { Config } from "@docusaurus/types";
+
+import { themes } from 'prism-react-renderer'
 
 const lightCodeTheme = themes.github
 const darkCodeTheme = themes.dracula
 
-/** @type {import("@docusaurus/types").Config} */
-const config = {
+const config:Config = {
   title: 'NUISTCraft',
   tagline: '致力于提供一流的原版生存/生电体验',
   url: 'https://nuistcraft.com',
@@ -21,7 +22,6 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import("@docusaurus/preset-classic").Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -43,7 +43,6 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
     ({
       navbar: {
         title: 'NUIST Craft',
@@ -108,4 +107,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
