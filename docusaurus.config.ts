@@ -19,6 +19,13 @@ const config: Config = {
   organizationName: 'NUISTCRAFT', // Usually your GitHub org/user name.
   projectName: 'NUISTCRAFT', // Usually your repo name.
 
+  stylesheets: [{
+    rel: 'preload',
+    href:"https://chinese-fonts-cdn.deno.dev/packages/qxs/dist/quan/result.css",
+    as:'style',
+    onload:"this.rel='stylesheet'"
+  }],
+
   presets: [
     [
       'classic',

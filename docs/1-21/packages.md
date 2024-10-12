@@ -27,7 +27,7 @@ sidebar_position: 1
 
 - 你也可以通过 MUA 的 [联合大厅](/docs/union.md) 地址： `union.nuistcraft.com` *(标签名：「NUISTCraft」)*进入我们的服务器。
 
-:::tip下一步
+:::tip 下一步
 
 请务必仔细阅读导航栏中关于服务器插件、地图和规则的说明。
 

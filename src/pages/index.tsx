@@ -15,9 +15,9 @@ function HomepageHeader() {
           <source src="/img/logo.webm" />
         </video>
         <h1 className="hero__title cubic-font">{siteConfig.title}</h1>
-        <p className="hero__subtitle cubic-font">{siteConfig.tagline}</p>
+        <p className="hero__subtitle ">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg cubic-font" to="/docs/intro">
+          <Link className="button button--secondary button--lg" to="/docs/intro">
             怎么玩？
           </Link>
         </div>
