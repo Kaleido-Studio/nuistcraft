@@ -1,14 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import { Config } from "@docusaurus/types";
+import type { Config } from '@docusaurus/types'
 
 import { themes } from 'prism-react-renderer'
 
 const lightCodeTheme = themes.github
 const darkCodeTheme = themes.dracula
 
-const config:Config = {
+const config: Config = {
   title: 'NUISTCraft',
   tagline: '致力于提供一流的原版生存/生电体验',
   url: 'https://nuistcraft.com',
@@ -105,6 +105,6 @@ const config:Config = {
         respectPrefersColorScheme: true,
       },
     }),
-};
+}
 
-export default config;
+export default config

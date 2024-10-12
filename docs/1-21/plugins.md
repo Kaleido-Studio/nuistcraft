@@ -6,23 +6,22 @@ title: 服务器插件
 
 ## 常规指令
 
-* `/home` 和 `/sethome`，设置你的家
+- `/home` 和 `/sethome`，设置你的家
 
-* `/tpa` ，玩家间传送
+- `/tpa` ，玩家间传送
 
-* `/tick` ，可以用于加速游戏进程，**请勿滥用**
+- `/tick` ，可以用于加速游戏进程，**请勿滥用**
 
-* `/tabtps`，用于监听服务器 TPS
+- `/tabtps`，用于监听服务器 TPS
 
-* `/locate`，用于定位结构和群系
+- `/locate`，用于定位结构和群系
 
 ## 存档备份
-
-
 
 我们使用 MCD Reforged 插件 [PrimeBackup](https://tisunion.github.io/PrimeBackup/) 进行存档备份。如果忘记任何指令，使用 `!!pb help` 查看帮助。
 
 任何人都有权限触发存档备份和回档，操作方法如下：
+
 ```
 !!pb make
 ```

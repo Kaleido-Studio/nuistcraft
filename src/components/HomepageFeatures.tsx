@@ -1,12 +1,12 @@
-import clsx from 'clsx';
-import React from 'react';
-import styles from './HomepageFeatures.module.css';
+import clsx from 'clsx'
+import React from 'react'
+import styles from './HomepageFeatures.module.css'
 
-type FeatureItem = {
-  title: string;
-  image: string;
-  description: JSX.Element;
-};
+interface FeatureItem {
+  title: string
+  image: string
+  description: JSX.Element
+}
 
 const FeatureList: FeatureItem[] = [
   {
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-];
+]
 
 function Feature({ title, image, description }: FeatureItem) {
   return (
@@ -55,7 +55,7 @@ function Feature({ title, image, description }: FeatureItem) {
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 export default function HomepageFeatures(): JSX.Element {
@@ -63,11 +63,11 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props) => (
-            <Feature {...props} />
+          {FeatureList.map(props => (
+            <Feature {...props} key={props.title} />
           ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

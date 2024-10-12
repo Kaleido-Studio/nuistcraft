@@ -13,7 +13,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          # cache node_modules 
+          # cache node_modules
           path: ~/.pnpm-store
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('pnpm-lock.yaml') }}
           restore-keys: |
@@ -43,7 +43,6 @@ jobs:
           pnpm i
           pnpm build
 
-
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
@@ -51,8 +50,6 @@ jobs:
           path: ./build
           retention-days: 1
 
-
-  
   deploy-cloudbase:
     needs: build
     runs-on: ubuntu-latest
@@ -99,12 +96,12 @@ jobs:
 #     steps:
 #       - name: Checkout
 #         uses: actions/checkout@v3
-      
+
 #       - name: Setup NodeJs environment
 #         uses: actions/setup-node@v3
 #         with:
 #           node-version: 20
-        
+
 #       - uses: pnpm/action-setup@v2
 #         name: Install pnpm
 #         id: pnpm-install
@@ -131,7 +128,7 @@ jobs:
 
 #       - name: Build the project
 #         run: pnpm run build
-      
+
 #       - name: Publish to Cloudflare Pages
 #         uses: cloudflare/pages-action@1
 #         with:

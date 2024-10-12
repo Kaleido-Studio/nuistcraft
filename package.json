@@ -2,6 +2,7 @@
   "name": "nuist-craft",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@9.4.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
@@ -28,26 +29,21 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "search-insights": "^2.17.2",
-    "ts-node": "^10.9.2",
     "webpack": "^5.95.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.7.3",
     "@docusaurus/module-type-aliases": "3.5.2",
+    "@eslint-react/eslint-plugin": "^1.14.2",
     "@tsconfig/docusaurus": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
+    "@unocss/eslint-plugin": "^0.62.4",
     "eslint": "^9.12.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-node": "^0.3.9",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.6.3"
+    "eslint-plugin-format": "^0.1.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "typescript": "^5.5.4"
   },
   "browserslist": {
     "production": [
@@ -60,6 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "packageManager": "pnpm@9.4.0"
+  }
 }

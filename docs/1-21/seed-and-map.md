@@ -34,4 +34,4 @@ title: 网页地图、种子与标记
 
 ![20230522124531](https://img-cdn.dustella.net/markdown/20230522124531.png)
 
-更多关于标记的信息，详见 [Dynmap官方文档]( https://github.com/webbukkit/dynmap/wiki/Using-Markers#marker)
+更多关于标记的信息，详见 [Dynmap官方文档](https://github.com/webbukkit/dynmap/wiki/Using-Markers#marker)

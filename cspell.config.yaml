@@ -1,0 +1,53 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - antfu
+  - astro
+  - Attributify
+  - changelogen
+  - CODEMAP
+  - composables
+  - defu
+  - iconify
+  - importee
+  - intlify
+  - laravel
+  - lucide
+  - memfs
+  - mkdist
+  - nodir
+  - nuxi
+  - Enderchest
+  - dustella
+  - turbohsu
+  - Hausemaster
+  - Nuxt
+  - ofetch
+  - openai
+  - pinia
+  - shiki
+  - sirv
+  - superjson
+  - clsx
+  - webp
+  - nuist
+  - Craft
+  - nuistcraft
+  - tldraw
+  - unocss
+  - unplugin
+  - veaury
+  - vite
+  - vitepress
+  - vnode
+  - vueuse
+  - webapi
+  - webfont
+  - webm
+  - webfont
+  - mergeable
+ignoreWords: []
+import:
+  - "@nolebase/cspell-dict/cspell-ext.json"
