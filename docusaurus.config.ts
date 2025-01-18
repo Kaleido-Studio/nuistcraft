@@ -76,7 +76,7 @@ const config: Config = {
             position: 'left',
           },
           {
-            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411',
+            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411?orgId=1&from=now-6h&to=now&timezone=browser',
             label: '状态监控',
             position: 'left',
           },
@@ -99,7 +99,7 @@ const config: Config = {
           },
           {
             label: '状态监控',
-            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411',
+            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411?orgId=1&from=now-6h&to=now&timezone=browser',
           },
         ],
         copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备20013766号-3</a>`,
