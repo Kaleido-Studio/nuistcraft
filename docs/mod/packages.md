@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ## 本周目概况
 
-本周目使用的整合包为 `MC Eternal 1.6.1`，你可以去[这里(curseforge)](https://www.curseforge.com/minecraft/modpacks/minecraft-eternal)查看这个整合包的详情。
+本周目使用的整合包为 `Sky Factory 5`。
 
 ## 服务器地址
 

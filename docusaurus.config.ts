@@ -71,13 +71,13 @@ const config: Config = {
             position: 'left',
           },
           {
-            to: 'https://map.nuistcraft.com/',
+            href: 'https://map.nuistcraft.com/',
             label: '网页地图 (纯净服)',
             position: 'left',
           },
           {
-            href: 'https://dynmap-nuistcraft.xwx.rs/',
-            label: '网页地图 (模组服)',
+            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411',
+            label: '状态监控',
             position: 'left',
           },
           {
@@ -98,8 +98,8 @@ const config: Config = {
             href: 'https://map.nuistcraft.com/',
           },
           {
-            label: '网页地图 (模组服)',
-            href: 'https://dynmap-nuistcraft.xwx.rs/',
+            label: '状态监控',
+            href: 'https://grafana.nekomeow.cn/public-dashboards/42fce116d85543ebb749fa7bded3d411',
           },
         ],
         copyright: `<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备20013766号-3</a>`,
