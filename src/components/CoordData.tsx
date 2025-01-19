@@ -1,4 +1,4 @@
-import type { Equipment } from './CoordDisplay'
+import type { Contraptions } from './CoordDisplay'
 
 export default [
   {
@@ -72,10 +72,11 @@ export default [
   {
     name: '杀凋机',
     note: '刷下界之星，制作信标',
+    image: ['/img/contraptions/shadiaoji.png'],
     nether: [-386, 123, -354],
     avatar: ['/img/items/nether_star.png', '/img/items/beacon.png'],
     author: ['Apocalypse'],
     fix: ['Apocalypse'],
-    usage: '按照指引站在指定位置上，对准铁质活板门防止方块',
+    usage: '按照指引站在指定位置上，对准铁质活板门放置方块',
   },
-] as Equipment[]
+] as Contraptions[]
