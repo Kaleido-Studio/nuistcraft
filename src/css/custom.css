@@ -4,13 +4,18 @@
  * work well for content-centric websites.
  */
 
- /*
+/*
 <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/qxs/dist/quan/result.css' />
  */
 /* @import url('https://chinese-fonts-cdn.deno.dev/packages/qxs/dist/quan/result.css'); */
 
 /* Many Thanks to Mi Inc. credits for them!! */
 @import url('https://cdn-font.hyperos.mi.com/font/css?family=MiSans:100,200,300,400,450,500,600,650,700,900:Chinese_Simplify,Latin&display=swap');
+
+@font-face {
+  font-family: 'MC Font';
+  src: url('/fonts/mc_font.otf') format('opentype');
+}
 
 .cubic-font {
   font-family: 'QuanPixel 8px';
@@ -37,7 +42,7 @@
 * {
   /* font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif; */
 
-  font-family: "MiSans", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'MiSans', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #292929;
   letter-spacing: 0.03em;
 }
