@@ -1,3 +1,4 @@
+/* eslint-disable react-dom/no-dangerously-set-innerhtml */
 import React from 'react'
 import data from './CoordData'
 import styles from './CoordDisplay.module.css'
@@ -41,7 +42,7 @@ function coord_2_string(_coord: Coord) {
   return coord.join(' ')
 }
 
-function AutoImage({ src }: { src: string }) {
+function AutoResolutionImage({ src }: { src: string }) {
   const [isLowResolution, setIsLowResolution] = React.useState(false)
 
   React.useEffect(() => {
@@ -71,6 +72,14 @@ function AutoImage({ src }: { src: string }) {
 function ImageDisplay({ src }: { src: string[] }) {
   const [currentIndex, setCurrentIndex] = React.useState(0)
 
+  // cache images
+  if (typeof Image !== 'undefined') {
+    src.forEach((src) => {
+      const img = new Image()
+      img.src = src
+    })
+  }
+
   React.useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(prevIndex => (prevIndex + 1) % src.length)
@@ -80,7 +89,7 @@ function ImageDisplay({ src }: { src: string[] }) {
   }, [src.length])
 
   return (
-    <AutoImage src={src[currentIndex]} />
+    <AutoResolutionImage src={src[currentIndex]} />
   )
 }
 
@@ -102,13 +111,13 @@ function CoordDisplayCard({
         && (
           Array.isArray(avatar)
             ? (<ImageDisplay src={avatar} />)
-            : (<AutoImage src={avatar} />)
+            : (<AutoResolutionImage src={avatar} />)
         )}
       </div>
       <p className={`${styles.title} ${styles.p}`}>
         {name}
       </p>
-      {note && <p className={styles.p}>{note}</p>}
+      {note && <p className={styles.p} dangerouslySetInnerHTML={{ __html: note }}></p>}
 
       {world && (
         <p className={styles.p}>
@@ -152,7 +161,7 @@ function CoordDisplayCard({
           {fix.join('，')}
         </p>
       )}
-      {usage && <p className={styles.p}>{usage}</p>}
+      {usage && <p className={styles.p} dangerouslySetInnerHTML={{ __html: usage }}></p>}
     </div>
   )
 }
