@@ -21,9 +21,9 @@ const config: Config = {
 
   stylesheets: [{
     rel: 'preload',
-    href:"https://chinese-fonts-cdn.deno.dev/packages/qxs/dist/quan/result.css",
-    as:'style',
-    onload:"this.rel='stylesheet'"
+    href: 'https://chinese-fonts-cdn.deno.dev/packages/qxs/dist/quan/result.css',
+    as: 'style',
+    onload: 'this.rel=\'stylesheet\'',
   }],
 
   presets: [
@@ -71,7 +71,7 @@ const config: Config = {
             position: 'left',
           },
           {
-            href: 'https://map.nuistcraft.com/',
+            href: 'https://map.nc.nekomeow.cn/',
             label: '网页地图 (纯净服)',
             position: 'left',
           },
@@ -95,7 +95,7 @@ const config: Config = {
           },
           {
             label: '网页地图 (纯净服)',
-            href: 'https://map.nuistcraft.com/',
+            href: 'https://map.nc.nekomeow.cn/',
           },
           {
             label: '状态监控',

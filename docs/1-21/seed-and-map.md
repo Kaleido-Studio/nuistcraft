@@ -14,7 +14,7 @@ title: 网页地图、种子与标记
 
 ## 网页地图
 
-我们提供了网页地图，保留地址是 https://map.nuistcraft.com
+我们提供了网页地图，保留地址是 https://map.nc.nekomeow.cn
 
 ## 标记
 
