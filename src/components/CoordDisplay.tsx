@@ -163,9 +163,7 @@ function CoordDisplayCard({
         <p className={styles.p}>
           主世界坐标：
           <span className={styles.coord}>
-            (
             {coord_2_string(world)}
-            )
           </span>
         </p>
       )}
@@ -173,9 +171,7 @@ function CoordDisplayCard({
         <p className={styles.p}>
           地狱坐标：
           <span className={styles.coord}>
-            (
             {coord_2_string(nether)}
-            )
           </span>
         </p>
       )}
@@ -183,9 +179,7 @@ function CoordDisplayCard({
         <p className={styles.p}>
           末地坐标：
           <span className={styles.coord}>
-            (
             {coord_2_string(end)}
-            )
           </span>
         </p>
       )}
