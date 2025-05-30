@@ -2,7 +2,7 @@
   "name": "nuist-craft",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",
@@ -27,6 +27,7 @@
     "@types/node": "^22.7.5",
     "acorn": "^8.12.1",
     "clsx": "^2.1.1",
+    "fuse.js": "^7.1.0",
     "marked": "^15.0.6",
     "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
