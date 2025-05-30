@@ -6,6 +6,7 @@ export default [
     world: [-751, undefined, -165],
     nether: [-99, 128, -21],
     avatar: '/img/items/slime_ball.png',
+    image: ['/img/contraptions/O史莱姆农场.png', '/img/contraptions/E史莱姆农场.png'],
   },
   {
     name: '简易单核守卫者农场',
@@ -167,7 +168,7 @@ export default [
     world: [-1472, -37, 895],
     nether: [-179, 28, 107],
     end: [266, 4, -1],
-    image: ['/img/contraptions/shadiaoji.png'],
+    image: ['/img/contraptions/N小黑塔.png'],
     note: '刷沙机附近跳下进入',
   },
   {
