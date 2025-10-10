@@ -6,7 +6,7 @@ export default [
     world: [-751, undefined, -165],
     nether: [-99, 128, -21],
     avatar: '/img/items/slime_ball.png',
-    image: ['/img/contraptions/O史莱姆农场.png', '/img/contraptions/E史莱姆农场.png'],
+    image: ['/img/contraptions/O史莱姆农场.webp', '/img/contraptions/E史莱姆农场.webp'],
   },
   {
     name: '简易单核守卫者农场',
