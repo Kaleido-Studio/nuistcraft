@@ -4,6 +4,24 @@ title: 服务器插件
 
 本服务器提供丰富的 Paper 插件，同时致力于还原原版特性（包括RNG和红石）
 
+## 数据包
+
+### NyaaWorks 的家具数据包
+
+你可以在切石机中通过木材或者石头合成大部分家具，少部分家具合成可以参照 REI 合成表或者原版合成书
+
+为了正确显示家具模型，需要默认接受服务端资源包（整合包中默认已开启）
+
+数据包介绍请看 [BV12ohXeYE2h](https://www.bilibili.com/video/BV12ohXeYE2h)
+
+### 添加了 NyaaEnchants 更多附魔的数据包
+
+你可以在附魔台中附魔出更多有趣的附魔效果，并获得比原版更高等级的附魔，最高比原版升三级
+
+上述 NyaaEnchants 的特殊道具需要在试炼密室的宝箱中开出
+
+介绍视频请看 [BV19ZbszDEq3](https://www.bilibili.com/video/BV19ZbszDEq3)
+
 ## 常规指令
 
 - `/home` 和 `/sethome`，设置你的家
@@ -12,7 +30,7 @@ title: 服务器插件
 
 - `/tick` ，可以用于加速游戏进程，**请勿滥用**
 
-- `/tabtps`，用于监听服务器 TPS
+<!-- - `/tabtps`，用于监听服务器 TPS -->
 
 - `/locate`，用于定位结构和群系
 
@@ -63,7 +81,7 @@ title: 服务器插件
 要移除这一个假人，可以使用
 
 ```mcfunction
-!!bot remove hsds
+/bot remove hsds
 ```
 
 **右键假人可以编辑它的背包**，使用 `/bot action` 指令甚至可以自定义假人的动作。
